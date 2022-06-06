@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Form</h1>
+        <form action="/ejs/handledata" method="post">
+            <input name = 'name' type="text" placeholder="enter the name"/>
+            <input name = 'pass' type="password" placeholder="enter the password"/>
+            <button type="submit">submit</button></form><br/>
+        </form>
+
+        <h1>user Name : <%=name%></h1><br/>
+        <h1>password : <%=pass%></h1>
+    </body>
+</html>
